@@ -1,25 +1,35 @@
+import controllers.ContactoController;
 import controllers.Sets;
 import java.util.Set;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("--- HashSet ---");
-        Sets sets = new Sets();
-        runHashSet(sets);
+        //System.out.println("--- HashSet ---");
+        //Sets sets = new Sets();
+        //runHashSet(sets);
+        //System.out.println();
+        //System.out.println("--- LinkedHashSet ---");
+        //runLinkedHashSet(sets);
+        //System.out.println();
+        //System.out.println("--- TreeSet ---");
+        //runTreeSet(sets);
+        //System.out.println();
+        //System.out.println("--- TreeSet con Comparador ---");
+        //runTreeSetConComparador(sets);
+        //System.out.println();
+        //System.out.println("--- Con Comparador ---");
+        //runConComparador(sets);
         System.out.println();
-        System.out.println("--- LinkedHashSet ---");
-        runLinkedHashSet(sets);
+        System.out.println("---> Agenda ordenada por Apellido-Nombre <---");
+        ContactoController contactoController = new ContactoController();
+        
         System.out.println();
-        System.out.println("--- TreeSet ---");
-        runTreeSet(sets);
-        System.out.println();
-        System.out.println("--- TreeSet con Comparador ---");
-        runTreeSetConComparador(sets);
-        System.out.println();
-        System.out.println("--- Con Comparador ---");
-        runConComparador(sets);
+        System.out.println("---> Agenda ordenada por Apellido-Nombre- Telefono <---");
+        contactoController.runTreeContactoTelf();
 
-
+        System.out.println();
+        System.out.println("---> Agenda ordenada por HashCode <---");
+        contactoController.runTreeContactoHash();
     }
 
     public static void runHashSet(Sets sets){

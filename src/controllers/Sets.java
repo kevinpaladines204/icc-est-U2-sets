@@ -45,7 +45,7 @@ public class Sets {
         Comparator <String> comparador = new Comparator<String>(){
             @Override
             public int compare(String s1, String s2){
-                //primero comparamso por loonguitud
+                //primero comparamos por longuitud
                 int resl = Integer.compare(s1.length(), s2.length());
                 // si son iguales en tam comparo alfabéticamente
                 if (resl == 0){
@@ -66,7 +66,7 @@ public class Sets {
         return palabras;
     }
 
-    //5 metodo que imprima en este orden
+    //5to metodo que imprima en este orden
     //Manzana
     //celulas
     //celular
@@ -78,7 +78,7 @@ public class Sets {
         Comparator <String> comparador = new Comparator<String>(){
             @Override
             public int compare(String s1, String s2){
-                //primero comparamso por loonguitud
+                //primero comparamos por longuitud
                 int resl = Integer.compare(s2.length(), s1.length());
                 // si son iguales en tam comparo alfabéticamente
                 if (resl == 0){
