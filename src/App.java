@@ -1,4 +1,5 @@
-import controllers.ContactoController;
+//import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 import java.util.Set;
 
@@ -19,17 +20,20 @@ public class App {
         //System.out.println();
         //System.out.println("--- Con Comparador ---");
         //runConComparador(sets);
-        System.out.println();
-        System.out.println("---> Agenda ordenada por Apellido-Nombre <---");
-        ContactoController contactoController = new ContactoController();
+        //System.out.println();
+        //System.out.println("---> Agenda ordenada por Apellido-Nombre <---");
+        //ContactoController contactoController = new ContactoController();
         
-        System.out.println();
-        System.out.println("---> Agenda ordenada por Apellido-Nombre- Telefono <---");
-        contactoController.runTreeContactoTelf();
+        //System.out.println();
+        //System.out.println("---> Agenda ordenada por Apellido-Nombre- Telefono <---");
+        //contactoController.runTreeContactoTelf();
 
-        System.out.println();
-        System.out.println("---> Agenda ordenada por HashCode <---");
-        contactoController.runTreeContactoHash();
+        //System.out.println();
+        //System.out.println("---> Agenda ordenada por HashCode <---");
+        //contactoController.runTreeContactoHash();
+
+
+        Ejercicios ejerercicios = new Ejercicios();
     }
 
     public static void runHashSet(Sets sets){

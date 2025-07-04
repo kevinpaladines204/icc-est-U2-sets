@@ -24,7 +24,11 @@
 
 ---
 ## 🧑‍💻 Ejemplo de Entrada y Salida
-
+- **Ejercicio 1**
 ![alt text](image.png)
 
+- **Ejercicio 2**
 ![alt text](image-1.png)
+
+- **Ejercicio 3**
+![alt text](image-2.png)
